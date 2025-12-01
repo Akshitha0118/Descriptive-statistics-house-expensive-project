@@ -10,7 +10,7 @@ st.set_page_config(page_title="📊 Descriptive Statistics Dashboard", layout="w
 st.markdown("<h1 style='text-align:center;'>📌 Descriptive Statistics Project Dashboard</h1>", unsafe_allow_html=True)
 
 # Load Dataset from local path
-file_path = r"C:\Users\ADMIN\Desktop\DATA SCIENCE NOTES\NOVEMBER MONTH\27TH NOV\24th, 25th -  Intro to Stats, Descriptive Stats\PROJECT\Inc_Exp_Data.csv"
+file_path = 'Inc_Exp_Data.csv'
 
 try:
     df = pd.read_csv(file_path)
@@ -100,3 +100,4 @@ else:
     st.write("➖ Distribution is **mesokurtic (normal-like)**.")
 
 st.markdown("<hr><center>🚀 Dashboard Completed — Ready for Report & Presentation</center>", unsafe_allow_html=True)
+
